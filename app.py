@@ -12,7 +12,7 @@ except FileNotFoundError:
     st.error(f"Model file '{model_file_path}' not found. Please ensure it's available.")
 
 # Display an image on the home page
-st.image("architecture-4810651_1280.png", caption="Welcome to the House Price Predictor", use_column_width=True)
+st.image("architecture-4810651_1280.png", caption="Welcome to the House Price Predictor", use_container_width=True)
 
 # Streamlit app title
 st.title("House Price Predictor")
